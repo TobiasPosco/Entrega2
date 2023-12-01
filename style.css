@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+header {
+    display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  align-items: center;
+}
+
+
+.nav-list {
+  display: flex;
+  gap: 30px;
+  
+}

@@ -228,6 +228,11 @@ justify-content: stretch;
 } 
 
 
+.maps {
+  display: flex;
+  justify-content: flex-end; 
+  align-items: center;
+}
 
 .contactos{
   display: flex;
@@ -265,12 +270,53 @@ margin: 20px;
 gap: 400px;
 }
  
- .texto{
+.texto{
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #f2b3bd; 
+  background-color: #f2b3bd;
   
 }
 
- 
+ @media (max-width: 576px){
+  .hero{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .about{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .card{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .texto{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .contactanos{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .maps{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+} 
+.texto {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f2b3bd;
+  margin-top: 20px; 
+}
+

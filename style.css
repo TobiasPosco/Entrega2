@@ -268,7 +268,8 @@ gap: 400px;
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #f2b3bd;
+  display: none;
+  /* background-color: #f2b3bd; */
   
 }
 
@@ -302,13 +303,6 @@ gap: 400px;
   }
 
 } 
-/* .texto {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: #f2b3bd;
-  padding-top: 20px; 
-} */
 
 .contact-section{
   flex-direction: column;

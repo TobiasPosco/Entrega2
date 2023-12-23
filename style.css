@@ -228,12 +228,6 @@ justify-content: stretch;
 } 
 
 
-.maps {
-  display: flex;
-  justify-content: flex-end; 
-  align-items: center;
-}
-
 .contactos{
   display: flex;
   align-items: center;
@@ -306,17 +300,19 @@ gap: 400px;
     align-items: center;
     flex-direction: column;
   }
-  .maps{
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-  }
+
 } 
-.texto {
+/* .texto {
   display: flex;
   align-items: center;
   justify-content: center;
   background-color: #f2b3bd;
-  margin-top: 20px; 
-}
+  padding-top: 20px; 
+} */
 
+.contact-section{
+  flex-direction: column;
+  display: flex;
+  gap: 100px;
+  align-items: center;
+}

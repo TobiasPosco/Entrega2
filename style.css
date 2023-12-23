@@ -166,7 +166,8 @@ header {
 }
 
 section {
-  height: 80vh;
+  /* height: 80vh; */
+  padding: 50px 0;
   justify-content: center;
   align-items: center;
   display: flex;
